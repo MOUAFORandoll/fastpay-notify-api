@@ -47,8 +47,6 @@ firebase-adminsdk.json
 .tmp
 config/service-account.json
 
-service-account.*
-
 # Runtime data
 pids
 *.pid
