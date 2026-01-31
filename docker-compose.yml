@@ -1,0 +1,11 @@
+services:
+  fastpay-notify-api:
+    build: .
+    container_name: fastpay-notify-api
+    ports:
+      - "8083:8083"
+    environment:
+      - PORT=8083
+      # Add Firebase credentials path if needed
+      # - GOOGLE_APPLICATION_CREDENTIALS=/app/firebase-adminsdk.json
+    restart: always
